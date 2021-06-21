@@ -5,3 +5,4 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_subdirectory(basicSum)
 add_subdirectory(minString)
+add_subdirectory(equation)
