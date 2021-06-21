@@ -3,11 +3,11 @@
 using namespace std;
 
 string minString(string firstString, string secondString, string thirdString) {
-    if (firstString < secondString && firstString < thirdString) {
+    if (firstString <= secondString && firstString <= thirdString) {
         return firstString;
     }
 
-    if (secondString < thirdString) {
+    if (secondString <= thirdString) {
         return secondString;
     }
 
