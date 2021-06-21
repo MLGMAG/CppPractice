@@ -1,8 +1,8 @@
-include_directories(${SOURCE_PATH}/equation)
+include_directories(${LOCAL_DIR_PATH}/equation)
 add_library(
         equationLib STATIC
-        ${SOURCE_PATH}/equation/equation.cpp
-        ${SOURCE_PATH}/equation/equation.h
+        ${LOCAL_DIR_PATH}/equation/equation.cpp
+        ${LOCAL_DIR_PATH}/equation/equation.h
 )
 
 add_executable(equationTest equationTest.cpp)

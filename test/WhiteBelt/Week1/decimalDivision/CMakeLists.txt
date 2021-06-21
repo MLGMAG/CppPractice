@@ -1,8 +1,8 @@
-include_directories(${SOURCE_PATH}/decimalDivision)
+include_directories(${LOCAL_DIR_PATH}/decimalDivision)
 add_library(
         decimalDivisionLib STATIC
-        ${SOURCE_PATH}/decimalDivision/decimalDivision.cpp
-        ${SOURCE_PATH}/decimalDivision/decimalDivision.h
+        ${LOCAL_DIR_PATH}/decimalDivision/decimalDivision.cpp
+        ${LOCAL_DIR_PATH}/decimalDivision/decimalDivision.h
 )
 
 add_executable(decimalDivisionTest decimalDivisionTest.cpp)

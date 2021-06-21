@@ -1,6 +1,1 @@
-add_subdirectory(basicSum)
-add_subdirectory(matrixSum)
-add_subdirectory(minString)
-add_subdirectory(equation)
-add_subdirectory(decimalDivision)
-add_subdirectory(marketCalc)
+add_subdirectory(WhiteBelt)

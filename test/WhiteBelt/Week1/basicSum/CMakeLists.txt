@@ -1,8 +1,8 @@
-include_directories(${SOURCE_PATH}/basicSum)
+include_directories(${LOCAL_DIR_PATH}/basicSum)
 add_library(
         basicSumLib STATIC
-        ${SOURCE_PATH}/basicSum/basicSum.cpp
-        ${SOURCE_PATH}/basicSum/basicSum.h
+        ${LOCAL_DIR_PATH}/basicSum/basicSum.cpp
+        ${LOCAL_DIR_PATH}/basicSum/basicSum.h
 )
 
 add_executable(basicSumTest basicSumTest.cpp)

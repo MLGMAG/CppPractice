@@ -1,8 +1,8 @@
-include_directories(${SOURCE_PATH}/minString)
+include_directories(${LOCAL_DIR_PATH}/minString)
 add_library(
         minStringLib STATIC
-        ${SOURCE_PATH}/minString/minString.cpp
-        ${SOURCE_PATH}/minString/minString.h
+        ${LOCAL_DIR_PATH}/minString/minString.cpp
+        ${LOCAL_DIR_PATH}/minString/minString.h
 )
 
 add_executable(minStringTest minStringTest.cpp)
