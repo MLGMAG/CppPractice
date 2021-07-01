@@ -1,6 +1,5 @@
 set(SOURCE_PATH ${PROJECT_SOURCE_DIR}/src)
 
-add_subdirectory(lib)
-include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-
-add_subdirectory(WhiteBelt)
+# White belt
+add_subdirectory(WhiteBelt/Week1)
+add_subdirectory(WhiteBelt/Week2)
