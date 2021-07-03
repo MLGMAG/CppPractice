@@ -19,3 +19,13 @@ add_library(
 )
 add_executable(avrTempTest avrTemp/avrTempTest.cpp)
 target_link_libraries(avrTempTest PRIVATE avrTempLib gtest gtest_main)
+
+# Block weight test
+include_directories(${LOCAL_DIR_PATH}/blockWeight)
+add_library(
+        blockWeightLib STATIC
+        ${LOCAL_DIR_PATH}/blockWeight/blockWeight.cpp
+        ${LOCAL_DIR_PATH}/blockWeight/blockWeight.h
+)
+add_executable(blockWeightTest blockWeight/blockWeightTest.cpp)
+target_link_libraries(blockWeightTest PRIVATE blockWeightLib gtest gtest_main)
