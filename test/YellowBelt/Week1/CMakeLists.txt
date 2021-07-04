@@ -49,3 +49,13 @@ add_library(
 )
 add_executable(squareTest square/squareTest.cpp)
 target_link_libraries(squareTest PRIVATE squareLib gtest gtest_main)
+
+# Element reference test
+include_directories(${LOCAL_DIR_PATH}/elemRef)
+add_library(
+        elemRefLib STATIC
+        ${LOCAL_DIR_PATH}/elemRef/elemRef.cpp
+        ${LOCAL_DIR_PATH}/elemRef/elemRef.h
+)
+add_executable(elemRefTest elemRef/elemRefTest.cpp)
+target_link_libraries(elemRefTest PRIVATE elemRefLib gtest gtest_main)

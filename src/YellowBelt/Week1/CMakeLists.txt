@@ -14,3 +14,6 @@ add_executable(regionDatabase regionDatabase/regionDatabase.cpp regionDatabase/r
 
 # Square
 add_executable(square square/square.cpp square/square.h)
+
+# Element reference
+add_executable(elemRef elemRef/elemRef.cpp elemRef/elemRef.h)
