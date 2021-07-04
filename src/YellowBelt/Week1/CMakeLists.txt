@@ -11,3 +11,6 @@ add_executable(blockWeightCoursera blockWeight/blockWeightCoursera.cpp)
 
 # Region Database
 add_executable(regionDatabase regionDatabase/regionDatabase.cpp regionDatabase/regionDatabase.h)
+
+# Square
+add_executable(square square/square.cpp square/square.h)

@@ -39,3 +39,13 @@ add_library(
 )
 add_executable(regionDatabaseTest regionDatabase/regionDatabaseTest.cpp)
 target_link_libraries(regionDatabaseTest PRIVATE regionDatabaseLib gtest gtest_main)
+
+# Square test
+include_directories(${LOCAL_DIR_PATH}/square)
+add_library(
+        squareLib STATIC
+        ${LOCAL_DIR_PATH}/square/square.cpp
+        ${LOCAL_DIR_PATH}/square/square.h
+)
+add_executable(squareTest square/squareTest.cpp)
+target_link_libraries(squareTest PRIVATE squareLib gtest gtest_main)
