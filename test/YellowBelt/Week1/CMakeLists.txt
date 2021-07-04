@@ -29,3 +29,13 @@ add_library(
 )
 add_executable(blockWeightTest blockWeight/blockWeightTest.cpp)
 target_link_libraries(blockWeightTest PRIVATE blockWeightLib gtest gtest_main)
+
+# Region database test
+include_directories(${LOCAL_DIR_PATH}/regionDatabase)
+add_library(
+        regionDatabaseLib STATIC
+        ${LOCAL_DIR_PATH}/regionDatabase/regionDatabase.cpp
+        ${LOCAL_DIR_PATH}/regionDatabase/regionDatabase.h
+)
+add_executable(regionDatabaseTest regionDatabase/regionDatabaseTest.cpp)
+target_link_libraries(regionDatabaseTest PRIVATE regionDatabaseLib gtest gtest_main)

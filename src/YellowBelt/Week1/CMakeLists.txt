@@ -8,3 +8,6 @@ add_executable(avrTempCoursera avrTemp/avrTempCoursera.cpp)
 # Block Weight
 add_executable(blockWeight blockWeight/blockWeight.cpp blockWeight/blockWeight.h)
 add_executable(blockWeightCoursera blockWeight/blockWeightCoursera.cpp)
+
+# Region Database
+add_executable(regionDatabase regionDatabase/regionDatabase.cpp regionDatabase/regionDatabase.h)
