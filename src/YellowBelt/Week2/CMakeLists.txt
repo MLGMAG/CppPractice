@@ -1,0 +1,2 @@
+# Program Decomposition
+add_executable(programDecomposition programDecomposition/programDecomposition.cpp programDecomposition/programDecomposition.h)
