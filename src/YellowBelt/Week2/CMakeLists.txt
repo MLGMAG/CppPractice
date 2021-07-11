@@ -1,2 +1,5 @@
 # Program Decomposition
 add_executable(programDecomposition programDecomposition/programDecomposition.cpp programDecomposition/programDecomposition.h)
+
+# Real Root Count Unit Tests
+add_executable(realRootCountUnitTests realRootCountUnitTests/realRootCountUnitTest.cpp)
