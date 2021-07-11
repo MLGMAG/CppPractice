@@ -6,3 +6,6 @@ add_executable(realRootCountUnitTests realRootCountUnitTests/realRootCountUnitTe
 
 # Person Unit Tests
 add_executable(personUnitTests personUnitTests/personUnitTests.cpp)
+
+# Rational Unit Tests
+add_executable(rationalTests rationalTests/rationalTests.cpp)
