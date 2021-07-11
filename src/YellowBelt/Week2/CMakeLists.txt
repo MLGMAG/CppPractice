@@ -3,3 +3,6 @@ add_executable(programDecomposition programDecomposition/programDecomposition.cp
 
 # Real Root Count Unit Tests
 add_executable(realRootCountUnitTests realRootCountUnitTests/realRootCountUnitTest.cpp)
+
+# Person Unit Tests
+add_executable(personUnitTests personUnitTests/personUnitTests.cpp)
