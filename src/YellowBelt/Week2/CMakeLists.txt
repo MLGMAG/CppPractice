@@ -9,3 +9,6 @@ add_executable(personUnitTests personUnitTests/personUnitTests.cpp)
 
 # Rational Unit Tests
 add_executable(rationalTests rationalTests/rationalTests.cpp)
+
+# Palindrome Unit Tests
+add_executable(palindromeTests palindromeTests/palindromeTests.cpp)
