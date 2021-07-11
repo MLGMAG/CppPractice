@@ -10,3 +10,9 @@ TestRunner::~TestRunner() {
 void Assert(bool b, const string &hint) {
     AssertEqual(b, true, hint);
 }
+
+void fail(const string &hint) {
+    ostringstream os;
+    os << "Test failed! " << "Hint: " << hint;
+    throw runtime_error(os.str());
+}

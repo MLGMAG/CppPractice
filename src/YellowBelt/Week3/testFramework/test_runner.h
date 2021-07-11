@@ -64,6 +64,8 @@ void AssertEqual(const T &t, const U &u, const string &hint = {}) {
 
 void Assert(bool b, const string &hint);
 
+void fail(const string &hint);
+
 class TestRunner {
 public:
     template<class TestFunc>
