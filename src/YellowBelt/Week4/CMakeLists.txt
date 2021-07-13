@@ -16,3 +16,6 @@ target_link_libraries(removeDuplicates PRIVATE testFrameworkLib)
 
 # Rearrangement
 add_executable(rearrangement rearrangement/rearrangementCoursera.cpp)
+
+# Person Details
+add_executable(personDetails personDetails/personDetails.cpp)
