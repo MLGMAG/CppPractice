@@ -9,3 +9,7 @@ target_link_libraries(greaterElement PRIVATE testFrameworkLib)
 # Split String
 add_executable(splitString splitString/splitString.h splitString/splitString.cpp splitString/splitStringTests.cpp)
 target_link_libraries(splitString PRIVATE testFrameworkLib)
+
+# Remove Duplicates
+add_executable(removeDuplicates removeDuplicates/removeDuplicates.h removeDuplicates/removeDuplicatesTest.cpp)
+target_link_libraries(removeDuplicates PRIVATE testFrameworkLib)
