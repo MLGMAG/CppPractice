@@ -13,3 +13,6 @@ target_link_libraries(splitString PRIVATE testFrameworkLib)
 # Remove Duplicates
 add_executable(removeDuplicates removeDuplicates/removeDuplicates.h removeDuplicates/removeDuplicatesTest.cpp)
 target_link_libraries(removeDuplicates PRIVATE testFrameworkLib)
+
+# Rearrangement
+add_executable(rearrangement rearrangement/rearrangementCoursera.cpp)
