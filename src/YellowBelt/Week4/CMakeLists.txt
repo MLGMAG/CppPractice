@@ -23,3 +23,7 @@ add_executable(personDetails personDetails/personDetails.cpp)
 # Group Strings
 add_executable(groupBySymbol groupStrings/groupBySymbol.cpp)
 add_executable(groupByString groupStrings/groupByString.cpp)
+
+# Arithmetic
+add_executable(arithmeticAmbiguous arithmetic/arithmeticAmbiguous.cpp)
+add_executable(arithmeticNormal arithmetic/arithmeticNormal.cpp)
