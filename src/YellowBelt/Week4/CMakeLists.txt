@@ -19,3 +19,7 @@ add_executable(rearrangement rearrangement/rearrangementCoursera.cpp)
 
 # Person Details
 add_executable(personDetails personDetails/personDetails.cpp)
+
+# Group Strings
+add_executable(groupBySymbol groupStrings/groupBySymbol.cpp)
+add_executable(groupByString groupStrings/groupByString.cpp)
